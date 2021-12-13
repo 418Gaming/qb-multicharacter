@@ -58,11 +58,11 @@ end
 
 -- Commands
 
-QBCore.Commands.Add("logout", "Logout of Character (Admin Only)", {}, false, function(source)
+QBCore.Commands.Add("logout", "Logout of Character", {}, false, function(source)
     local src = source
     QBCore.Player.Logout(src)
     TriggerClientEvent('qb-multicharacter:client:chooseChar', src)
-end, "admin")
+end)
 
 QBCore.Commands.Add("closeNUI", "Close Multi NUI", {}, false, function(source)
     local src = source

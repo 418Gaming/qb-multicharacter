@@ -22,10 +22,10 @@
     display: none;
     position: absolute;
     width: 22%;
-    height: auto;
+    height: 600px;
     left: 14%;
     top: -40%;
-    overflow: visible !important;
+    overflow: scroll !important;
     background-color: rgb(23 23 23 / 80%);
     border-radius: .8vh;
     padding: 30px;
